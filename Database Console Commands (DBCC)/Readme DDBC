@@ -1,0 +1,24 @@
+DBCC (Database Console Commands) in SQL Server are used to perform maintenance tasks, check for corruption, and display information about the database. These commands can be categorized into four types:
+
+A. Maintenance: Used for tasks like shrinking databases, updating usage statistics, etc.
+B. Informational: Returns information about the status of a database.
+C. Validation: Validates the physical and logical integrity of a database.
+D. Miscellaneous: Other commands not falling into the above categories.
+E. Below are some common DBCC commands, explained with examples:
+
+Summary:
+   1.  DBCC CHECKDB: Ensures database integrity.
+   2.  DBCC CHECKALLOC: Checks allocation structures.
+   3.  DBCC CHECKTABLE: Verifies table integrity.
+   4.  DBCC SHRINKDATABASE: Shrinks the whole database.
+   5.  DBCC SHRINKFILE: Shrinks a specific file.
+   6.  DBCC SQLPERF(LOGSPACE): Monitors log space usage.
+   7.  DBCC SHOWCONTIG: Checks index fragmentation.
+   8.  DBCC DROPCLEANBUFFERS: Clears the buffer cache.
+   9.  DBCC FREEPROCCACHE: Clears the procedure cache.
+   10. DBCC OPENTRAN: Shows active transactions.
+   11. DBCC USEROPTIONS: Displays user session settings.
+   12. DBCC CHECKIDENT: Adjusts identity values for tables.
+   13. DBCC TRACEON/TRACEOFF: Enables/Disables trace flags.
+     
+These commands are powerful tools for monitoring, maintaining, and troubleshooting SQL Server databases.
